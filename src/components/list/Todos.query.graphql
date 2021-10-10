@@ -1,4 +1,4 @@
-type Todo {
+type Todos {
   id: ID
   name: String
   complete: Boolean
@@ -19,3 +19,4 @@ type Mutation {
   updateTodo(input: TodoInput): Todo
   deleteTodo(input: TodoInput): [Todo]
 }
+
