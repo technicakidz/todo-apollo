@@ -1,0 +1,9 @@
+:host {
+    display: block;
+  }
+  
+  ol {
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+  }
